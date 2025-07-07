@@ -3,11 +3,29 @@
   "routes": [
     {
       "src": "/a/(.*)",
-      "dest": "https://dbc-4fabc9a4-3e18.cloud.databricks.com/$1"
+      "dest": "https://www.google.com/$1"
     },
     {
       "src": "/b/(.*)",
-      "dest": "https://dbc-4fabc9a4-3e18.cloud.databricks.com/$1"
+      "dest": "https://www.google.com/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/a/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,HEAD,POST,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "*" }
+      ]
+    },
+    {
+      "source": "/b/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,HEAD,POST,OPTIONS" },
+        { "key": "Access-Control-Allow-Headers", "value": "*" }
+      ]
     }
   ]
 } 
