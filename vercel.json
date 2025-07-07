@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/a/(.*)",
+      "dest": "https://dbc-4fabc9a4-3e18.cloud.databricks.com/$1"
+    },
+    {
+      "src": "/b/(.*)",
+      "dest": "https://dbc-4fabc9a4-3e18.cloud.databricks.com/$1"
+    }
+  ]
+} 
