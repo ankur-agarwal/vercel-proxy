@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/a/:path*",
-      "destination": "https://www.google.com/:path*"
+      "destination": "https://dbc-4fabc9a4-3e18.cloud.databricks.com"
     },
     {
       "source": "/b/:path*",
-      "destination": "https://www.google.com/:path*"
+      "destination": "https://dbc-4fabc9a4-3e18.cloud.databricks.com"
     }
   ],
   "headers": [
