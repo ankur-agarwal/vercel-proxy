@@ -18,6 +18,14 @@
       "destination": "https://dbc-4fabc9a4-3e18.cloud.databricks.com/:path*"
     },
     {
+      "source": "/x/y/z",
+      "destination": "https://dbc-4fabc9a4-3e18.cloud.databricks.com"
+    },
+    {
+      "source": "/x/y/z/:path*",
+      "destination": "https://dbc-4fabc9a4-3e18.cloud.databricks.com/:path*"
+    },
+    {
       "source": "/:path*",
       "destination": "https://dbc-4fabc9a4-3e18.cloud.databricks.com/:path*"
     }

@@ -6,6 +6,7 @@ This project sets up a reverse proxy using Vercel to route traffic to a Databric
 
 - `/a/*` -> Routes to Databricks instance
 - `/b/*` -> Routes to Databricks instance
+- `/x/y/z/*` -> Routes to Databricks instance
 
 ## Development
 
